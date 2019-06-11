@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.7.0
+-- version 4.8.5
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 02-05-2019 a las 11:22:41
--- Versión del servidor: 10.1.26-MariaDB
--- Versión de PHP: 7.1.8
+-- Tiempo de generación: 11-06-2019 a las 05:32:30
+-- Versión del servidor: 10.1.38-MariaDB
+-- Versión de PHP: 7.1.28
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -19,7 +19,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Base de datos: `id7561580_db_sistema2019`
+-- Base de datos: `rrhhdb2`
 --
 
 -- --------------------------------------------------------
@@ -641,91 +641,109 @@ ALTER TABLE `verificar`
 --
 ALTER TABLE `candidato`
   MODIFY `idcandidato` int(11) NOT NULL AUTO_INCREMENT;
+
 --
 -- AUTO_INCREMENT de la tabla `convocatoria`
 --
 ALTER TABLE `convocatoria`
   MODIFY `idconvocatoria` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+
 --
 -- AUTO_INCREMENT de la tabla `departamento`
 --
 ALTER TABLE `departamento`
   MODIFY `iddepartamento` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+
 --
 -- AUTO_INCREMENT de la tabla `detallecv`
 --
 ALTER TABLE `detallecv`
   MODIFY `iddetallecv` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+
 --
 -- AUTO_INCREMENT de la tabla `empleado`
 --
 ALTER TABLE `empleado`
   MODIFY `idempleado` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+
 --
 -- AUTO_INCREMENT de la tabla `evaluador`
 --
 ALTER TABLE `evaluador`
   MODIFY `idevaluador` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+
 --
 -- AUTO_INCREMENT de la tabla `formulario`
 --
 ALTER TABLE `formulario`
   MODIFY `idformulario` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+
 --
 -- AUTO_INCREMENT de la tabla `hoja_de_vida`
 --
 ALTER TABLE `hoja_de_vida`
   MODIFY `idhojavida` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
 --
 -- AUTO_INCREMENT de la tabla `notificacion`
 --
 ALTER TABLE `notificacion`
   MODIFY `idnotificacion` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+
 --
 -- AUTO_INCREMENT de la tabla `permiso`
 --
 ALTER TABLE `permiso`
   MODIFY `idpermiso` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+
 --
 -- AUTO_INCREMENT de la tabla `persona`
 --
 ALTER TABLE `persona`
   MODIFY `idpersona` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+
 --
 -- AUTO_INCREMENT de la tabla `postulante`
 --
 ALTER TABLE `postulante`
   MODIFY `idpostulante` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+
 --
 -- AUTO_INCREMENT de la tabla `rol`
 --
 ALTER TABLE `rol`
   MODIFY `idrol` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+
 --
 -- AUTO_INCREMENT de la tabla `usuario`
 --
 ALTER TABLE `usuario`
   MODIFY `idusuario` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+
 --
 -- AUTO_INCREMENT de la tabla `usuario_permiso`
 --
 ALTER TABLE `usuario_permiso`
   MODIFY `idusuario_permiso` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=142;
+
 --
 -- AUTO_INCREMENT de la tabla `vacante`
 --
 ALTER TABLE `vacante`
   MODIFY `idvacante` int(11) NOT NULL AUTO_INCREMENT;
+
 --
 -- AUTO_INCREMENT de la tabla `venta`
 --
 ALTER TABLE `venta`
   MODIFY `idventa` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
+
 --
 -- AUTO_INCREMENT de la tabla `verificar`
 --
 ALTER TABLE `verificar`
   MODIFY `idverificar` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
 --
 -- Restricciones para tablas volcadas
 --
